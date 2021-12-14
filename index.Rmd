@@ -4,10 +4,31 @@ author: 'Авторский коллектив: Кириллов П.Л., Моз�
   Д.В., Лобжанидзе Н.Е., Петросян А.Н., Шевчук Е.И., Ромашина А.А.'
 date: "`r Sys.Date()`"
 output:
-  pdf_document: default
+  pdf_document:
+    toc: false
+    toc_depth: 2
+    keep_tex: yes
+    number_sections: false
+    fig_width: 4
+    fig_height: 3
+    fig_caption: true
+    highlight: tango
+    latex_engine: xelatex
   word_document: default
-  html_document: 
-    fig_caption: yes
+  html_document: default
+lang: ru-RU
+mainfont: Arial
+fontsize: 11pt
+geometry: left=2cm, right=2cm, top=2cm, bottom=2cm
+linkcolor: blue
+urlcolor: blue
+citecolor: blue
+header-includes:
+- \newfontfamily{\cyrillicfonttt}{Arial}
+- \newfontfamily{\cyrillicfont}{Arial}
+- \newfontfamily{\cyrillicfontsf}{Arial}
+editor_options:
+  chunk_output_type: console
 documentclass: book
 bibliography:
 - book.bib
@@ -19,7 +40,7 @@ github-repo: nikotinz/urban_wrokshops
 site: bookdown::bookdown_site
 ---
 
-# О пособии {.unnumbered}
+О пособии {.unnumbered}
 
 Руководство по проведению практикума по геоурбанистике для учителей географии, педагогов дополнительного образования.
 
