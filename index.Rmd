@@ -1,0 +1,29 @@
+--- 
+title: "МОЙ ГОРОД – ГЕОГРАФИЧЕСКАЯ ЛАБОРАТОРИЯ"
+author: 'Авторский коллектив: Кириллов П.Л., Мозгунов Н.А., Банников С.В., Богачёв
+  Д.В., Лобжанидзе Н.Е., Петросян А.Н., Шевчук Е.И., Ромашина А.А.'
+date: "`r Sys.Date()`"
+output:
+  word_document: default
+  pdf_document: default
+documentclass: book
+bibliography:
+- book.bib
+- packages.bib
+description: |
+  Руководство по проведению практикума по геоурбанистике для учителей географии, педагогов дополнительного образования.
+link-citations: yes
+github-repo: nikotinz/urban_wrokshops
+site: bookdown::bookdown_site
+---
+
+# О пособии{-}
+
+Руководство по проведению практикума по геоурбанистике для учителей географии, педагогов дополнительного образования.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
