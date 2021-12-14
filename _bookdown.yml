@@ -1,4 +1,8 @@
 delete_merged_file: true
 language:
+  label:
+    fig: 'Рисунок '
+    tab: 'Таблица '
+    exm: 'Пример '
   ui:
-    chapter_name: "Chapter "
+    chapter_name: ""
