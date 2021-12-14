@@ -4,8 +4,8 @@ author: 'Авторский коллектив: Кириллов П.Л., Моз�
   Д.В., Лобжанидзе Н.Е., Петросян А.Н., Шевчук Е.И., Ромашина А.А.'
 date: "`r Sys.Date()`"
 output:
-  word_document: default
   pdf_document: default
+  word_document: default
   html_document: 
     fig_caption: yes
 documentclass: book
