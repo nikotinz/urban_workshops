@@ -1,0 +1,21 @@
+/* Скрыть кнопку PDF и другие ненужные элементы */
+.fa-file-pdf-o, .gitbook-link, .download-pdf {
+  display: none !important;
+}
+p, li {
+  text-align: justify;
+}
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
