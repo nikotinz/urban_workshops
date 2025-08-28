@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "МОЙ ГОРОД – ГЕОГРАФИЧЕСКАЯ ЛАБОРАТОРИЯ"
+authors:
+  - family-names: Кириллов
+    given-names: П.Л.
+  - family-names: Мозгунов
+    given-names: Н.А.
+    orcid: https://orcid.org/0000-0003-0941-718X
+  - family-names: Банников
+    given-names: С.В.
+  - family-names: Богачёв
+    given-names: Д.В.
+  - family-names: Лобжанидзе
+    given-names: Н.Е.
+  - family-names: Петросян
+    given-names: А.Н.
+  - family-names: Шевчук
+    given-names: Е.И.
+  - family-names: Ромашина
+    given-names: А.А.
+date-released: 2025-08-28
+version: "1.0"
+doi: 10.5281/zenodo.16985756
+url: https://doi.org/10.5281/zenodo.16985756
+license: CC-BY-NC-SA-4.0
+message: "Если вы используете это пособие, пожалуйста, цитируйте его согласно этим данным."
