@@ -1,5 +1,5 @@
 
-# urban_workshops
+# МОЙ ГОРОД – ГЕОГРАФИЧЕСКАЯ ЛАБОРАТОРИЯ
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16985756.svg)](https://doi.org/10.5281/zenodo.16985756)
 
@@ -23,13 +23,16 @@
 ```
 
 Рендер книги в другой формат:
-rmarkdown::render("index.Rmd", "word_document")
 
+Полностью всю книгу сверстать в pdf:
 bookdown::render_book("index.Rmd", "bookdown::pdf_book")
 
-
-Полностью всю книгу верстает в Word
+Полностью всю книгу сверстать в Word:
 bookdown::render_book("index.Rmd", "bookdown::word_document2")
+
+Экспорт книги в EPUB:
+bookdown::render_book("index.Rmd", "bookdown::epub_book")
 
 Для публикации на GitHub:
 bookdown::render_book("index.Rmd", "bookdown::gitbook")
+
